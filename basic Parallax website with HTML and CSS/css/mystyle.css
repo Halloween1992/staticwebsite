@@ -1,0 +1,66 @@
+body{
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Loto",sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color:#666;
+}
+.pimg1{
+  background: url('../img/image1.jpeg') no-repeat center center fixed;
+  height:700px;
+  background-size: cover;
+  opacity: 0.8;
+}
+.pimg2{
+  background: url('../img/image2.jpg') no-repeat center center fixed;
+  height: 400px;
+  opacity: 0.7;
+
+
+}
+.pimg3{
+  background: url('../img/image3.jpg') no-repeat center center fixed;
+  height: 400px;
+  opacity: 0.7;
+}
+
+.section{
+  text-align: center;
+  padding: 30px 70px;
+}
+.section-dark{
+  background-color:#282e34;
+  color: #ddd;
+}
+
+.section-light{
+  border-color: #f4f4f4;
+  color: #666;
+}
+.ptext{
+  position: relative;
+  top:50%;
+  width: 100%;
+  text-align: center;
+  color:#000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.border{
+  background-color: #111;
+  color: #fff;
+  padding: 15px;
+
+}
+.trans{
+  background-color:  transparent;
+}
+@media (max-width:568px) {
+  .pimg1, .pimg2, .pimg3{
+    background-attachment: scroll;
+  }
+
+}
